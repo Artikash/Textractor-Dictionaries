@@ -28,7 +28,10 @@ for (const _ in original) {
 saveStringToFile(
 	converted
 		.filter(rule => rule.kanaMapping[0])
-		.sort((a, b) => a.ruleIn.localeCompare(b.ruleIn) || a.kanaMapping[0].localeCompare(b.kanaMapping[0]))
+		.sort((a, b) => a.ruleIn.localeCompare(b.ruleIn)
+			|| a.kanaMapping[0].localeCompare(b.kanaMapping[0])
+			|| a.kanaMapping[1].localeCompare(b.kanaMapping[1])
+		)
 		.map(rule => `Rule("${rule.kanaMapping[0]}", "${rule.kanaMapping[1]}", "${rule.ruleIn}", "${rule.ruleOut}")`)
 		.join(",\n"),
 	"inflections.txt"
