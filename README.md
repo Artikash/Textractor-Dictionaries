@@ -1,5 +1,4 @@
 # Textractor Dictionaries
-
 Textractor uses a custom dictionary format which was designed to be efficient and easy to parse for Textractor
 (dictionaries are normally stored in other formats which are superior in many other ways).
 This project contains scripts to convert dictionaries from those other formats to Textractor's format.

@@ -1,3 +1,10 @@
+# Arguments:
+# 1. JMDict file name (usually JMDict or JMDict_e)
+# 2. Output file name (should be SavedDictionary.txt)
+# 3. Language (eng for English, other JMDict codes work)
+# 4. Conjugation depth (should be 1 or 2)
+# Example usage: python jmdict_to_textractor.py JMDict SavedDictionary.txt eng 2
+
 from xml.etree.ElementTree import parse
 from sys import argv
 from collections import namedtuple
