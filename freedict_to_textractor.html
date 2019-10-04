@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Freedict to Textractor</title>
+</head>
+<body>
+	This app converts dictionaries from Freedict format to Textractor's format.<br>
+	You can find Freedict format dictionaries <a href="https://freedict.org/downloads">here</a>.<br>
+	After downloading, use 7-zip to extract the dictionary files.<br>
+	The contained .dict.dz file is also accumulator archive 7-zip can open: do so and extract the .dict file.<br>
+	Finally, select the .dict and .index files below to convert them to accumulator Textractor dictionary.<br>
+	<input type="file" accept=".index" onchange="convert()">
+	<input type="file" accept=".dict" onchange="convert()">
+	<script>
+		function saveToFile(data = new Blob(0), fileName = "data.bin") {
+			Object.assign(document.createElement("a"),
+				{ download: fileName, href: window.URL.createObjectURL(data) }
+			).click();
+		};
+
+		function saveStringToFile(string, fileName = "data.txt") {
+			saveToFile(new Blob([string], { type: "text/plain" }), fileName);
+		}
+
+		function read(blob, as = "Text") {
+			return new Promise((resolve, reject) => {
+				const reader = new FileReader();
+				reader.onloadend = () => { resolve(reader.result); }
+				reader.onerror = () => { reject(reader.error); reader.abort(); }
+				reader["readAs" + as](blob);
+			});
+		}
+
+		function decrypt(string) {
+			if (!string) return NaN;
+			return string.split("").reverse().reduce((accumulator, value, i) => {
+				const base64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".indexOf(value);
+				return base64 === -1 ? NaN : accumulator + base64 * (64 ** i);
+			}, 0);
+		}
+
+		async function convert() {
+			const [indexFile, dictionaryFile] = [...document.querySelectorAll("input")].map(e => e.files[0]);
+			const [index, dictionary] = await Promise.all([read(indexFile), read(dictionaryFile, "ArrayBuffer")]);
+			const definitions = {};
+			for (const line of index.split("\n")) {
+				const pieces = line.split("\t"), offset = decrypt(pieces[1]), length = decrypt(pieces[2]);
+				if (pieces.length === 3 && offset && length) {
+					const definition = new TextDecoder().decode(dictionary.slice(offset, offset + length));
+					(definitions[definition] || (definitions[definition] = [])).push(pieces[0]);
+				}
+			}
+			saveStringToFile(Object.keys(definitions).map(
+				definition => definitions[definition].map(term => "|TERM|" + term).join("") +
+					"|DEFINITION|" + definition.replace("\n", "<br>") + "|END|"
+			).join("\n"), "SavedDictionary.txt");
+		}
+	</script>
+</body>
+</html>
