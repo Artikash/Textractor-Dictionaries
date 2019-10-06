@@ -55,7 +55,7 @@
 			}
 			saveStringToFile(Object.keys(definitions).map(
 				definition => definitions[definition].map(term => "|TERM|" + term).join("") +
-					"|DEFINITION|" + definition.replace("\n", "<br>") + "|END|"
+					"|DEFINITION|" + definition.replace(/\n/g, "<br>") + "|END|"
 			).join("\n"), "SavedDictionary.txt");
 		}
 	</script>

@@ -1,2 +1,4 @@
 SavedDictionary.txt
 JMDict
+*.dict
+*.index
