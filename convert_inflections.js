@@ -10,29 +10,27 @@ const JMDict = {
 	v5: "Godan verb",
 	v1: "Ichidan verb",
 	vk: "Kuru verb",
-	vs: "suru",
-	"adj-i": "adjective (keiyoushi)"
+	vs: "Suru verb",
+	"adj-i": "Adjective",
+	iru: "iru"
 }
 
 const converted = [];
 const original = JSON.parse(document.body.innerText);
-for (const _ in original) {
-	for (const rule of original[_]) {
+for (const name in original) {
+	for (const rule of original[name]) {
 		const kanaMapping = [rule.kanaOut, rule.kanaIn];
 		if (!(rule.rulesIn.length === 0 || rule.rulesIn.length === 1)) alert("WARNING");
 		for (const ruleOut of rule.rulesOut) {
-			converted.push({ kanaMapping, ruleIn: JMDict[ruleOut], ruleOut: JMDict[rule.rulesIn[0]] });
+			converted.push({ kanaMapping, name, ruleIn: JMDict[ruleOut], ruleOut: "" });
+			if (rule.rulesIn.length) converted.push({ kanaMapping, name, ruleIn: JMDict[ruleOut], ruleOut: "<<" + JMDict[rule.rulesIn[0]] })
 		}
 	}
 }
 saveStringToFile(
 	converted
 		.filter(rule => rule.kanaMapping[0])
-		.sort((a, b) => a.ruleIn.localeCompare(b.ruleIn)
-			|| a.kanaMapping[0].localeCompare(b.kanaMapping[0])
-			|| a.kanaMapping[1].localeCompare(b.kanaMapping[1])
-		)
-		.map(rule => `Rule("${rule.kanaMapping[0]}", "${rule.kanaMapping[1]}", "${rule.ruleIn}", "${rule.ruleOut}")`)
-		.join(",\n"),
+		.map(rule => `|ROOT|1${rule.kanaMapping[0]}<<${rule.ruleIn}|INFLECTS TO|(.*)${rule.kanaMapping[1] + rule.ruleOut}|NAME| ← ${rule.name}|END|`)
+		.join("\n"),
 	"inflections.txt"
 );
