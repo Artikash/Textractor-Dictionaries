@@ -1,437 +1,597 @@
-Rule("い", "かった", "adjective (keiyoushi)", "undefined"),
-Rule("い", "かったら", "adjective (keiyoushi)", "undefined"),
-Rule("い", "かったり", "adjective (keiyoushi)", "undefined"),
-Rule("い", "く", "adjective (keiyoushi)", "undefined"),
-Rule("い", "くありません", "adjective (keiyoushi)", "undefined"),
-Rule("い", "くありませんでした", "adjective (keiyoushi)", "undefined"),
-Rule("い", "くて", "adjective (keiyoushi)", "undefined"),
-Rule("い", "くない", "adjective (keiyoushi)", "adjective (keiyoushi)"),
-Rule("い", "ければ", "adjective (keiyoushi)", "undefined"),
-Rule("い", "さ", "adjective (keiyoushi)", "undefined"),
-Rule("い", "すぎる", "adjective (keiyoushi)", "Ichidan verb"),
-Rule("い", "そう", "adjective (keiyoushi)", "undefined"),
-Rule("いく", "いった", "Godan verb", "undefined"),
-Rule("いく", "いったら", "Godan verb", "undefined"),
-Rule("いく", "いったり", "Godan verb", "undefined"),
-Rule("いく", "いって", "Godan verb", "undefined"),
-Rule("う", "い", "Godan verb", "undefined"),
-Rule("う", "いすぎる", "Godan verb", "Ichidan verb"),
-Rule("う", "いそう", "Godan verb", "undefined"),
-Rule("う", "いたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("う", "いなさい", "Godan verb", "undefined"),
-Rule("う", "いました", "Godan verb", "undefined"),
-Rule("う", "いましょう", "Godan verb", "undefined"),
-Rule("う", "います", "Godan verb", "undefined"),
-Rule("う", "いません", "Godan verb", "undefined"),
-Rule("う", "いませんでした", "Godan verb", "undefined"),
-Rule("う", "え", "Godan verb", "undefined"),
-Rule("う", "えば", "Godan verb", "undefined"),
-Rule("う", "える", "Godan verb", "Ichidan verb"),
-Rule("う", "おう", "Godan verb", "undefined"),
-Rule("う", "った", "Godan verb", "undefined"),
-Rule("う", "ったら", "Godan verb", "undefined"),
-Rule("う", "ったり", "Godan verb", "undefined"),
-Rule("う", "っちゃう", "Godan verb", "Godan verb"),
-Rule("う", "って", "Godan verb", "undefined"),
-Rule("う", "っとく", "Godan verb", "Godan verb"),
-Rule("う", "わされる", "Godan verb", "Ichidan verb"),
-Rule("う", "わず", "Godan verb", "undefined"),
-Rule("う", "わせる", "Godan verb", "Ichidan verb"),
-Rule("う", "わない", "Godan verb", "adjective (keiyoushi)"),
-Rule("う", "わぬ", "Godan verb", "undefined"),
-Rule("う", "われる", "Godan verb", "Ichidan verb"),
-Rule("おう", "おうた", "Godan verb", "undefined"),
-Rule("おう", "おうたら", "Godan verb", "undefined"),
-Rule("おう", "おうたり", "Godan verb", "undefined"),
-Rule("おう", "おうて", "Godan verb", "undefined"),
-Rule("く", "いた", "Godan verb", "undefined"),
-Rule("く", "いたら", "Godan verb", "undefined"),
-Rule("く", "いたり", "Godan verb", "undefined"),
-Rule("く", "いちゃう", "Godan verb", "Godan verb"),
-Rule("く", "いて", "Godan verb", "undefined"),
-Rule("く", "いとく", "Godan verb", "Godan verb"),
-Rule("く", "かされる", "Godan verb", "Ichidan verb"),
-Rule("く", "かず", "Godan verb", "undefined"),
-Rule("く", "かせる", "Godan verb", "Ichidan verb"),
-Rule("く", "かない", "Godan verb", "adjective (keiyoushi)"),
-Rule("く", "かぬ", "Godan verb", "undefined"),
-Rule("く", "かれる", "Godan verb", "Ichidan verb"),
-Rule("く", "き", "Godan verb", "undefined"),
-Rule("く", "きすぎる", "Godan verb", "Ichidan verb"),
-Rule("く", "きそう", "Godan verb", "undefined"),
-Rule("く", "きたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("く", "きなさい", "Godan verb", "undefined"),
-Rule("く", "きました", "Godan verb", "undefined"),
-Rule("く", "きましょう", "Godan verb", "undefined"),
-Rule("く", "きます", "Godan verb", "undefined"),
-Rule("く", "きません", "Godan verb", "undefined"),
-Rule("く", "きませんでした", "Godan verb", "undefined"),
-Rule("く", "け", "Godan verb", "undefined"),
-Rule("く", "けば", "Godan verb", "undefined"),
-Rule("く", "ける", "Godan verb", "Ichidan verb"),
-Rule("く", "こう", "Godan verb", "undefined"),
-Rule("く", "っちゃう", "Godan verb", "Godan verb"),
-Rule("ぐ", "いじゃう", "Godan verb", "Godan verb"),
-Rule("ぐ", "いだ", "Godan verb", "undefined"),
-Rule("ぐ", "いだら", "Godan verb", "undefined"),
-Rule("ぐ", "いだり", "Godan verb", "undefined"),
-Rule("ぐ", "いで", "Godan verb", "undefined"),
-Rule("ぐ", "いどく", "Godan verb", "Godan verb"),
-Rule("ぐ", "がされる", "Godan verb", "Ichidan verb"),
-Rule("ぐ", "がず", "Godan verb", "undefined"),
-Rule("ぐ", "がせる", "Godan verb", "Ichidan verb"),
-Rule("ぐ", "がない", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぐ", "がぬ", "Godan verb", "undefined"),
-Rule("ぐ", "がれる", "Godan verb", "Ichidan verb"),
-Rule("ぐ", "ぎ", "Godan verb", "undefined"),
-Rule("ぐ", "ぎすぎる", "Godan verb", "Ichidan verb"),
-Rule("ぐ", "ぎそう", "Godan verb", "undefined"),
-Rule("ぐ", "ぎたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぐ", "ぎなさい", "Godan verb", "undefined"),
-Rule("ぐ", "ぎました", "Godan verb", "undefined"),
-Rule("ぐ", "ぎましょう", "Godan verb", "undefined"),
-Rule("ぐ", "ぎます", "Godan verb", "undefined"),
-Rule("ぐ", "ぎません", "Godan verb", "undefined"),
-Rule("ぐ", "ぎませんでした", "Godan verb", "undefined"),
-Rule("ぐ", "げ", "Godan verb", "undefined"),
-Rule("ぐ", "げば", "Godan verb", "undefined"),
-Rule("ぐ", "げる", "Godan verb", "Ichidan verb"),
-Rule("ぐ", "ごう", "Godan verb", "undefined"),
-Rule("こう", "こうた", "Godan verb", "undefined"),
-Rule("こう", "こうたら", "Godan verb", "undefined"),
-Rule("こう", "こうたり", "Godan verb", "undefined"),
-Rule("こう", "こうて", "Godan verb", "undefined"),
-Rule("す", "さず", "Godan verb", "undefined"),
-Rule("す", "させる", "Godan verb", "Ichidan verb"),
-Rule("す", "さない", "Godan verb", "adjective (keiyoushi)"),
-Rule("す", "さぬ", "Godan verb", "undefined"),
-Rule("す", "される", "Godan verb", "Ichidan verb"),
-Rule("す", "し", "Godan verb", "undefined"),
-Rule("す", "しすぎる", "Godan verb", "Ichidan verb"),
-Rule("す", "しそう", "Godan verb", "undefined"),
-Rule("す", "した", "Godan verb", "undefined"),
-Rule("す", "したい", "Godan verb", "adjective (keiyoushi)"),
-Rule("す", "したら", "Godan verb", "undefined"),
-Rule("す", "したり", "Godan verb", "undefined"),
-Rule("す", "しちゃう", "Godan verb", "Godan verb"),
-Rule("す", "して", "Godan verb", "undefined"),
-Rule("す", "しとく", "Godan verb", "Godan verb"),
-Rule("す", "しなさい", "Godan verb", "undefined"),
-Rule("す", "しました", "Godan verb", "undefined"),
-Rule("す", "しましょう", "Godan verb", "undefined"),
-Rule("す", "します", "Godan verb", "undefined"),
-Rule("す", "しません", "Godan verb", "undefined"),
-Rule("す", "しませんでした", "Godan verb", "undefined"),
-Rule("す", "せ", "Godan verb", "undefined"),
-Rule("す", "せば", "Godan verb", "undefined"),
-Rule("す", "せる", "Godan verb", "Ichidan verb"),
-Rule("す", "そう", "Godan verb", "undefined"),
-Rule("そう", "そうた", "Godan verb", "undefined"),
-Rule("そう", "そうたら", "Godan verb", "undefined"),
-Rule("そう", "そうたり", "Godan verb", "undefined"),
-Rule("そう", "そうて", "Godan verb", "undefined"),
-Rule("つ", "たされる", "Godan verb", "Ichidan verb"),
-Rule("つ", "たず", "Godan verb", "undefined"),
-Rule("つ", "たせる", "Godan verb", "Ichidan verb"),
-Rule("つ", "たない", "Godan verb", "adjective (keiyoushi)"),
-Rule("つ", "たぬ", "Godan verb", "undefined"),
-Rule("つ", "たれる", "Godan verb", "Ichidan verb"),
-Rule("つ", "ち", "Godan verb", "undefined"),
-Rule("つ", "ちすぎる", "Godan verb", "Ichidan verb"),
-Rule("つ", "ちそう", "Godan verb", "undefined"),
-Rule("つ", "ちたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("つ", "ちなさい", "Godan verb", "undefined"),
-Rule("つ", "ちました", "Godan verb", "undefined"),
-Rule("つ", "ちましょう", "Godan verb", "undefined"),
-Rule("つ", "ちます", "Godan verb", "undefined"),
-Rule("つ", "ちません", "Godan verb", "undefined"),
-Rule("つ", "ちませんでした", "Godan verb", "undefined"),
-Rule("つ", "った", "Godan verb", "undefined"),
-Rule("つ", "ったら", "Godan verb", "undefined"),
-Rule("つ", "ったり", "Godan verb", "undefined"),
-Rule("つ", "っちゃう", "Godan verb", "Godan verb"),
-Rule("つ", "って", "Godan verb", "undefined"),
-Rule("つ", "っとく", "Godan verb", "Godan verb"),
-Rule("つ", "て", "Godan verb", "undefined"),
-Rule("つ", "てば", "Godan verb", "undefined"),
-Rule("つ", "てる", "Godan verb", "Ichidan verb"),
-Rule("つ", "とう", "Godan verb", "undefined"),
-Rule("とう", "とうた", "Godan verb", "undefined"),
-Rule("とう", "とうたら", "Godan verb", "undefined"),
-Rule("とう", "とうたり", "Godan verb", "undefined"),
-Rule("とう", "とうて", "Godan verb", "undefined"),
-Rule("ぬ", "なされる", "Godan verb", "Ichidan verb"),
-Rule("ぬ", "なず", "Godan verb", "undefined"),
-Rule("ぬ", "なせる", "Godan verb", "Ichidan verb"),
-Rule("ぬ", "なない", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぬ", "なぬ", "Godan verb", "undefined"),
-Rule("ぬ", "なれる", "Godan verb", "Ichidan verb"),
-Rule("ぬ", "に", "Godan verb", "undefined"),
-Rule("ぬ", "にすぎる", "Godan verb", "Ichidan verb"),
-Rule("ぬ", "にそう", "Godan verb", "undefined"),
-Rule("ぬ", "にたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぬ", "になさい", "Godan verb", "undefined"),
-Rule("ぬ", "にました", "Godan verb", "undefined"),
-Rule("ぬ", "にましょう", "Godan verb", "undefined"),
-Rule("ぬ", "にます", "Godan verb", "undefined"),
-Rule("ぬ", "にません", "Godan verb", "undefined"),
-Rule("ぬ", "にませんでした", "Godan verb", "undefined"),
-Rule("ぬ", "ね", "Godan verb", "undefined"),
-Rule("ぬ", "ねば", "Godan verb", "undefined"),
-Rule("ぬ", "ねる", "Godan verb", "Ichidan verb"),
-Rule("ぬ", "のう", "Godan verb", "undefined"),
-Rule("ぬ", "んじゃう", "Godan verb", "Godan verb"),
-Rule("ぬ", "んだ", "Godan verb", "undefined"),
-Rule("ぬ", "んだら", "Godan verb", "undefined"),
-Rule("ぬ", "んだり", "Godan verb", "undefined"),
-Rule("ぬ", "んで", "Godan verb", "undefined"),
-Rule("ぬ", "んどく", "Godan verb", "Godan verb"),
-Rule("のたまう", "のたもうた", "Godan verb", "undefined"),
-Rule("のたまう", "のたもうたら", "Godan verb", "undefined"),
-Rule("のたまう", "のたもうたり", "Godan verb", "undefined"),
-Rule("のたまう", "のたもうて", "Godan verb", "undefined"),
-Rule("ぶ", "ばされる", "Godan verb", "Ichidan verb"),
-Rule("ぶ", "ばず", "Godan verb", "undefined"),
-Rule("ぶ", "ばせる", "Godan verb", "Ichidan verb"),
-Rule("ぶ", "ばない", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぶ", "ばぬ", "Godan verb", "undefined"),
-Rule("ぶ", "ばれる", "Godan verb", "Ichidan verb"),
-Rule("ぶ", "び", "Godan verb", "undefined"),
-Rule("ぶ", "びすぎる", "Godan verb", "Ichidan verb"),
-Rule("ぶ", "びそう", "Godan verb", "undefined"),
-Rule("ぶ", "びたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("ぶ", "びなさい", "Godan verb", "undefined"),
-Rule("ぶ", "びました", "Godan verb", "undefined"),
-Rule("ぶ", "びましょう", "Godan verb", "undefined"),
-Rule("ぶ", "びます", "Godan verb", "undefined"),
-Rule("ぶ", "びません", "Godan verb", "undefined"),
-Rule("ぶ", "びませんでした", "Godan verb", "undefined"),
-Rule("ぶ", "べ", "Godan verb", "undefined"),
-Rule("ぶ", "べば", "Godan verb", "undefined"),
-Rule("ぶ", "べる", "Godan verb", "Ichidan verb"),
-Rule("ぶ", "ぼう", "Godan verb", "undefined"),
-Rule("ぶ", "んじゃう", "Godan verb", "Godan verb"),
-Rule("ぶ", "んだ", "Godan verb", "undefined"),
-Rule("ぶ", "んだら", "Godan verb", "undefined"),
-Rule("ぶ", "んだり", "Godan verb", "undefined"),
-Rule("ぶ", "んで", "Godan verb", "undefined"),
-Rule("ぶ", "んどく", "Godan verb", "Godan verb"),
-Rule("む", "まされる", "Godan verb", "Ichidan verb"),
-Rule("む", "まず", "Godan verb", "undefined"),
-Rule("む", "ませる", "Godan verb", "Ichidan verb"),
-Rule("む", "まない", "Godan verb", "adjective (keiyoushi)"),
-Rule("む", "まぬ", "Godan verb", "undefined"),
-Rule("む", "まれる", "Godan verb", "Ichidan verb"),
-Rule("む", "み", "Godan verb", "undefined"),
-Rule("む", "みすぎる", "Godan verb", "Ichidan verb"),
-Rule("む", "みそう", "Godan verb", "undefined"),
-Rule("む", "みたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("む", "みなさい", "Godan verb", "undefined"),
-Rule("む", "みました", "Godan verb", "undefined"),
-Rule("む", "みましょう", "Godan verb", "undefined"),
-Rule("む", "みます", "Godan verb", "undefined"),
-Rule("む", "みません", "Godan verb", "undefined"),
-Rule("む", "みませんでした", "Godan verb", "undefined"),
-Rule("む", "め", "Godan verb", "undefined"),
-Rule("む", "めば", "Godan verb", "undefined"),
-Rule("む", "める", "Godan verb", "Ichidan verb"),
-Rule("む", "もう", "Godan verb", "undefined"),
-Rule("む", "んじゃう", "Godan verb", "Godan verb"),
-Rule("む", "んだ", "Godan verb", "undefined"),
-Rule("む", "んだら", "Godan verb", "undefined"),
-Rule("む", "んだり", "Godan verb", "undefined"),
-Rule("む", "んで", "Godan verb", "undefined"),
-Rule("む", "んどく", "Godan verb", "Godan verb"),
-Rule("る", "った", "Godan verb", "undefined"),
-Rule("る", "ったら", "Godan verb", "undefined"),
-Rule("る", "ったり", "Godan verb", "undefined"),
-Rule("る", "っちゃう", "Godan verb", "Godan verb"),
-Rule("る", "って", "Godan verb", "undefined"),
-Rule("る", "っとく", "Godan verb", "Godan verb"),
-Rule("る", "らされる", "Godan verb", "Ichidan verb"),
-Rule("る", "らず", "Godan verb", "undefined"),
-Rule("る", "らせる", "Godan verb", "Ichidan verb"),
-Rule("る", "らない", "Godan verb", "adjective (keiyoushi)"),
-Rule("る", "らぬ", "Godan verb", "undefined"),
-Rule("る", "られる", "Godan verb", "Ichidan verb"),
-Rule("る", "り", "Godan verb", "undefined"),
-Rule("る", "りすぎる", "Godan verb", "Ichidan verb"),
-Rule("る", "りそう", "Godan verb", "undefined"),
-Rule("る", "りたい", "Godan verb", "adjective (keiyoushi)"),
-Rule("る", "りなさい", "Godan verb", "undefined"),
-Rule("る", "りました", "Godan verb", "undefined"),
-Rule("る", "りましょう", "Godan verb", "undefined"),
-Rule("る", "ります", "Godan verb", "undefined"),
-Rule("る", "りません", "Godan verb", "undefined"),
-Rule("る", "りませんでした", "Godan verb", "undefined"),
-Rule("る", "れ", "Godan verb", "undefined"),
-Rule("る", "れば", "Godan verb", "undefined"),
-Rule("る", "れる", "Godan verb", "Ichidan verb"),
-Rule("る", "ろう", "Godan verb", "undefined"),
-Rule("乞う", "乞うた", "Godan verb", "undefined"),
-Rule("乞う", "乞うたら", "Godan verb", "undefined"),
-Rule("乞う", "乞うたり", "Godan verb", "undefined"),
-Rule("乞う", "乞うて", "Godan verb", "undefined"),
-Rule("副う", "副うた", "Godan verb", "undefined"),
-Rule("副う", "副うたら", "Godan verb", "undefined"),
-Rule("副う", "副うたり", "Godan verb", "undefined"),
-Rule("副う", "副うて", "Godan verb", "undefined"),
-Rule("厭う", "厭うた", "Godan verb", "undefined"),
-Rule("厭う", "厭うたら", "Godan verb", "undefined"),
-Rule("厭う", "厭うたり", "Godan verb", "undefined"),
-Rule("厭う", "厭うて", "Godan verb", "undefined"),
-Rule("問う", "問うた", "Godan verb", "undefined"),
-Rule("問う", "問うたら", "Godan verb", "undefined"),
-Rule("問う", "問うたり", "Godan verb", "undefined"),
-Rule("問う", "問うて", "Godan verb", "undefined"),
-Rule("往く", "往った", "Godan verb", "undefined"),
-Rule("往く", "往ったら", "Godan verb", "undefined"),
-Rule("往く", "往ったり", "Godan verb", "undefined"),
-Rule("往く", "往って", "Godan verb", "undefined"),
-Rule("恋う", "恋うた", "Godan verb", "undefined"),
-Rule("恋う", "恋うたら", "Godan verb", "undefined"),
-Rule("恋う", "恋うたり", "Godan verb", "undefined"),
-Rule("恋う", "恋うて", "Godan verb", "undefined"),
-Rule("沿う", "沿うた", "Godan verb", "undefined"),
-Rule("沿う", "沿うたら", "Godan verb", "undefined"),
-Rule("沿う", "沿うたり", "Godan verb", "undefined"),
-Rule("沿う", "沿うて", "Godan verb", "undefined"),
-Rule("添う", "添うた", "Godan verb", "undefined"),
-Rule("添う", "添うたら", "Godan verb", "undefined"),
-Rule("添う", "添うたり", "Godan verb", "undefined"),
-Rule("添う", "添うて", "Godan verb", "undefined"),
-Rule("行く", "行った", "Godan verb", "undefined"),
-Rule("行く", "行ったら", "Godan verb", "undefined"),
-Rule("行く", "行ったり", "Godan verb", "undefined"),
-Rule("行く", "行って", "Godan verb", "undefined"),
-Rule("請う", "請うた", "Godan verb", "undefined"),
-Rule("請う", "請うたら", "Godan verb", "undefined"),
-Rule("請う", "請うたり", "Godan verb", "undefined"),
-Rule("請う", "請うて", "Godan verb", "undefined"),
-Rule("負う", "負うた", "Godan verb", "undefined"),
-Rule("負う", "負うたら", "Godan verb", "undefined"),
-Rule("負う", "負うたり", "Godan verb", "undefined"),
-Rule("負う", "負うて", "Godan verb", "undefined"),
-Rule("逝く", "逝った", "Godan verb", "undefined"),
-Rule("逝く", "逝ったら", "Godan verb", "undefined"),
-Rule("逝く", "逝ったり", "Godan verb", "undefined"),
-Rule("逝く", "逝って", "Godan verb", "undefined"),
-Rule("いる", "い", "Ichidan verb", "undefined"),
-Rule("える", "え", "Ichidan verb", "undefined"),
-Rule("きる", "き", "Ichidan verb", "undefined"),
-Rule("ぎる", "ぎ", "Ichidan verb", "undefined"),
-Rule("ける", "け", "Ichidan verb", "undefined"),
-Rule("げる", "げ", "Ichidan verb", "undefined"),
-Rule("じる", "じ", "Ichidan verb", "undefined"),
-Rule("せる", "せ", "Ichidan verb", "undefined"),
-Rule("ぜる", "ぜ", "Ichidan verb", "undefined"),
-Rule("ちる", "ち", "Ichidan verb", "undefined"),
-Rule("てる", "て", "Ichidan verb", "undefined"),
-Rule("でる", "で", "Ichidan verb", "undefined"),
-Rule("にる", "に", "Ichidan verb", "undefined"),
-Rule("ねる", "ね", "Ichidan verb", "undefined"),
-Rule("ひる", "ひ", "Ichidan verb", "undefined"),
-Rule("びる", "び", "Ichidan verb", "undefined"),
-Rule("へる", "へ", "Ichidan verb", "undefined"),
-Rule("べる", "べ", "Ichidan verb", "undefined"),
-Rule("みる", "み", "Ichidan verb", "undefined"),
-Rule("める", "め", "Ichidan verb", "undefined"),
-Rule("りる", "り", "Ichidan verb", "undefined"),
-Rule("る", "させる", "Ichidan verb", "Ichidan verb"),
-Rule("る", "ず", "Ichidan verb", "undefined"),
-Rule("る", "すぎる", "Ichidan verb", "Ichidan verb"),
-Rule("る", "そう", "Ichidan verb", "undefined"),
-Rule("る", "た", "Ichidan verb", "undefined"),
-Rule("る", "たい", "Ichidan verb", "adjective (keiyoushi)"),
-Rule("る", "たら", "Ichidan verb", "undefined"),
-Rule("る", "たり", "Ichidan verb", "undefined"),
-Rule("る", "ちゃう", "Ichidan verb", "Godan verb"),
-Rule("る", "て", "Ichidan verb", "undefined"),
-Rule("る", "とく", "Ichidan verb", "Godan verb"),
-Rule("る", "ない", "Ichidan verb", "adjective (keiyoushi)"),
-Rule("る", "なさい", "Ichidan verb", "undefined"),
-Rule("る", "ぬ", "Ichidan verb", "undefined"),
-Rule("る", "ました", "Ichidan verb", "undefined"),
-Rule("る", "ましょう", "Ichidan verb", "undefined"),
-Rule("る", "ます", "Ichidan verb", "undefined"),
-Rule("る", "ません", "Ichidan verb", "undefined"),
-Rule("る", "ませんでした", "Ichidan verb", "undefined"),
-Rule("る", "よ", "Ichidan verb", "undefined"),
-Rule("る", "よう", "Ichidan verb", "undefined"),
-Rule("る", "られる", "Ichidan verb", "Ichidan verb"),
-Rule("る", "れば", "Ichidan verb", "undefined"),
-Rule("る", "れる", "Ichidan verb", "Ichidan verb"),
-Rule("る", "ろ", "Ichidan verb", "undefined"),
-Rule("れる", "れ", "Ichidan verb", "undefined"),
-Rule("くる", "き", "Kuru verb", "undefined"),
-Rule("くる", "きすぎる", "Kuru verb", "Ichidan verb"),
-Rule("くる", "きそう", "Kuru verb", "undefined"),
-Rule("くる", "きた", "Kuru verb", "undefined"),
-Rule("くる", "きたい", "Kuru verb", "adjective (keiyoushi)"),
-Rule("くる", "きたら", "Kuru verb", "undefined"),
-Rule("くる", "きたり", "Kuru verb", "undefined"),
-Rule("くる", "きちゃう", "Kuru verb", "Godan verb"),
-Rule("くる", "きて", "Kuru verb", "undefined"),
-Rule("くる", "きとく", "Kuru verb", "Godan verb"),
-Rule("くる", "きなさい", "Kuru verb", "undefined"),
-Rule("くる", "きました", "Kuru verb", "undefined"),
-Rule("くる", "きましょう", "Kuru verb", "undefined"),
-Rule("くる", "きます", "Kuru verb", "undefined"),
-Rule("くる", "きません", "Kuru verb", "undefined"),
-Rule("くる", "きませんでした", "Kuru verb", "undefined"),
-Rule("くる", "こい", "Kuru verb", "undefined"),
-Rule("くる", "こさせる", "Kuru verb", "Ichidan verb"),
-Rule("くる", "こず", "Kuru verb", "undefined"),
-Rule("くる", "こない", "Kuru verb", "adjective (keiyoushi)"),
-Rule("くる", "こぬ", "Kuru verb", "undefined"),
-Rule("くる", "こよう", "Kuru verb", "undefined"),
-Rule("くる", "こられる", "Kuru verb", "Ichidan verb"),
-Rule("くる", "これる", "Kuru verb", "Ichidan verb"),
-Rule("る", "い", "Kuru verb", "undefined"),
-Rule("る", "させる", "Kuru verb", "Ichidan verb"),
-Rule("る", "ず", "Kuru verb", "undefined"),
-Rule("る", "すぎる", "Kuru verb", "Ichidan verb"),
-Rule("る", "そう", "Kuru verb", "undefined"),
-Rule("る", "た", "Kuru verb", "undefined"),
-Rule("る", "たい", "Kuru verb", "adjective (keiyoushi)"),
-Rule("る", "たら", "Kuru verb", "undefined"),
-Rule("る", "たり", "Kuru verb", "undefined"),
-Rule("る", "ちゃう", "Kuru verb", "Godan verb"),
-Rule("る", "て", "Kuru verb", "undefined"),
-Rule("る", "とく", "Kuru verb", "Godan verb"),
-Rule("る", "ない", "Kuru verb", "adjective (keiyoushi)"),
-Rule("る", "なさい", "Kuru verb", "undefined"),
-Rule("る", "ぬ", "Kuru verb", "undefined"),
-Rule("る", "ました", "Kuru verb", "undefined"),
-Rule("る", "ましょう", "Kuru verb", "undefined"),
-Rule("る", "ます", "Kuru verb", "undefined"),
-Rule("る", "ません", "Kuru verb", "undefined"),
-Rule("る", "ませんでした", "Kuru verb", "undefined"),
-Rule("る", "よう", "Kuru verb", "undefined"),
-Rule("る", "られる", "Kuru verb", "Ichidan verb"),
-Rule("る", "れば", "Kuru verb", "undefined"),
-Rule("る", "れる", "Kuru verb", "Ichidan verb"),
-Rule("する", "させる", "suru", "Ichidan verb"),
-Rule("する", "される", "suru", "Ichidan verb"),
-Rule("する", "しすぎる", "suru", "Ichidan verb"),
-Rule("する", "しそう", "suru", "undefined"),
-Rule("する", "した", "suru", "undefined"),
-Rule("する", "したい", "suru", "adjective (keiyoushi)"),
-Rule("する", "したら", "suru", "undefined"),
-Rule("する", "したり", "suru", "undefined"),
-Rule("する", "しちゃう", "suru", "Godan verb"),
-Rule("する", "して", "suru", "undefined"),
-Rule("する", "しとく", "suru", "Godan verb"),
-Rule("する", "しない", "suru", "adjective (keiyoushi)"),
-Rule("する", "しなさい", "suru", "undefined"),
-Rule("する", "しました", "suru", "undefined"),
-Rule("する", "しましょう", "suru", "undefined"),
-Rule("する", "します", "suru", "undefined"),
-Rule("する", "しません", "suru", "undefined"),
-Rule("する", "しませんでした", "suru", "undefined"),
-Rule("する", "しよう", "suru", "undefined"),
-Rule("する", "しろ", "suru", "undefined"),
-Rule("する", "せず", "suru", "undefined"),
-Rule("する", "せぬ", "suru", "undefined"),
-Rule("する", "せよ", "suru", "undefined"),
-Rule("る", "れば", "suru", "undefined")
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)えば|NAME| ← -ba|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)けば|NAME| ← -ba|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)げば|NAME| ← -ba|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)せば|NAME| ← -ba|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)てば|NAME| ← -ba|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)ねば|NAME| ← -ba|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)べば|NAME| ← -ba|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)めば|NAME| ← -ba|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)れば|NAME| ← -ba|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)れば|NAME| ← -ba|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)れば|NAME| ← -ba|END|
+|ROOT|1る<<Suru verb|INFLECTS TO|(.*)れば|NAME| ← -ba|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)ければ|NAME| ← -ba|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ちゃう|NAME| ← -chau|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ちゃう|NAME| ← -chau|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いじゃう|NAME| ← -chau|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いじゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いちゃう|NAME| ← -chau|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きちゃう|NAME| ← -chau|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しちゃう|NAME| ← -chau|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しちゃう|NAME| ← -chau|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)っちゃう|NAME| ← -chau|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)っちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)っちゃう|NAME| ← -chau|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)っちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)っちゃう|NAME| ← -chau|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)っちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)っちゃう|NAME| ← -chau|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)っちゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んじゃう|NAME| ← -chau|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んじゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んじゃう|NAME| ← -chau|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んじゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んじゃう|NAME| ← -chau|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んじゃう<<Godan verb|NAME| ← -chau|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)なさい|NAME| ← -nasai|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)なさい|NAME| ← -nasai|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いなさい|NAME| ← -nasai|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きなさい|NAME| ← -nasai|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きなさい|NAME| ← -nasai|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎなさい|NAME| ← -nasai|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しなさい|NAME| ← -nasai|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しなさい|NAME| ← -nasai|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちなさい|NAME| ← -nasai|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)になさい|NAME| ← -nasai|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びなさい|NAME| ← -nasai|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みなさい|NAME| ← -nasai|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りなさい|NAME| ← -nasai|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)そう|NAME| ← -sou|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)そう|NAME| ← -sou|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)そう|NAME| ← -sou|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いそう|NAME| ← -sou|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きそう|NAME| ← -sou|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きそう|NAME| ← -sou|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎそう|NAME| ← -sou|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しそう|NAME| ← -sou|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しそう|NAME| ← -sou|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちそう|NAME| ← -sou|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にそう|NAME| ← -sou|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びそう|NAME| ← -sou|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みそう|NAME| ← -sou|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りそう|NAME| ← -sou|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)すぎる|NAME| ← -sugiru|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)すぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)すぎる|NAME| ← -sugiru|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)すぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)すぎる|NAME| ← -sugiru|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)すぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いすぎる|NAME| ← -sugiru|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きすぎる|NAME| ← -sugiru|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きすぎる|NAME| ← -sugiru|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎすぎる|NAME| ← -sugiru|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しすぎる|NAME| ← -sugiru|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しすぎる|NAME| ← -sugiru|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちすぎる|NAME| ← -sugiru|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にすぎる|NAME| ← -sugiru|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びすぎる|NAME| ← -sugiru|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みすぎる|NAME| ← -sugiru|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りすぎる|NAME| ← -sugiru|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りすぎる<<Ichidan verb|NAME| ← -sugiru|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)たい|NAME| ← -tai|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)たい<<Adjective|NAME| ← -tai|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)たい|NAME| ← -tai|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)たい<<Adjective|NAME| ← -tai|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いたい|NAME| ← -tai|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きたい|NAME| ← -tai|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きたい|NAME| ← -tai|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎたい|NAME| ← -tai|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)したい|NAME| ← -tai|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)したい<<Adjective|NAME| ← -tai|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)したい|NAME| ← -tai|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)したい<<Adjective|NAME| ← -tai|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちたい|NAME| ← -tai|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にたい|NAME| ← -tai|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びたい|NAME| ← -tai|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みたい|NAME| ← -tai|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りたい|NAME| ← -tai|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りたい<<Adjective|NAME| ← -tai|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)たら|NAME| ← -tara|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)たら|NAME| ← -tara|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いたら|NAME| ← -tara|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いだら|NAME| ← -tara|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きたら|NAME| ← -tara|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)したら|NAME| ← -tara|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)したら|NAME| ← -tara|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)ったら|NAME| ← -tara|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ったら|NAME| ← -tara|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)ったら|NAME| ← -tara|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んだら|NAME| ← -tara|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んだら|NAME| ← -tara|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んだら|NAME| ← -tara|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)かったら|NAME| ← -tara|END|
+|ROOT|1のたまう<<Godan verb|INFLECTS TO|(.*)のたもうたら|NAME| ← -tara|END|
+|ROOT|1いく<<Godan verb|INFLECTS TO|(.*)いったら|NAME| ← -tara|END|
+|ROOT|1おう<<Godan verb|INFLECTS TO|(.*)おうたら|NAME| ← -tara|END|
+|ROOT|1こう<<Godan verb|INFLECTS TO|(.*)こうたら|NAME| ← -tara|END|
+|ROOT|1そう<<Godan verb|INFLECTS TO|(.*)そうたら|NAME| ← -tara|END|
+|ROOT|1とう<<Godan verb|INFLECTS TO|(.*)とうたら|NAME| ← -tara|END|
+|ROOT|1行く<<Godan verb|INFLECTS TO|(.*)行ったら|NAME| ← -tara|END|
+|ROOT|1逝く<<Godan verb|INFLECTS TO|(.*)逝ったら|NAME| ← -tara|END|
+|ROOT|1往く<<Godan verb|INFLECTS TO|(.*)往ったら|NAME| ← -tara|END|
+|ROOT|1請う<<Godan verb|INFLECTS TO|(.*)請うたら|NAME| ← -tara|END|
+|ROOT|1乞う<<Godan verb|INFLECTS TO|(.*)乞うたら|NAME| ← -tara|END|
+|ROOT|1恋う<<Godan verb|INFLECTS TO|(.*)恋うたら|NAME| ← -tara|END|
+|ROOT|1問う<<Godan verb|INFLECTS TO|(.*)問うたら|NAME| ← -tara|END|
+|ROOT|1負う<<Godan verb|INFLECTS TO|(.*)負うたら|NAME| ← -tara|END|
+|ROOT|1沿う<<Godan verb|INFLECTS TO|(.*)沿うたら|NAME| ← -tara|END|
+|ROOT|1添う<<Godan verb|INFLECTS TO|(.*)添うたら|NAME| ← -tara|END|
+|ROOT|1副う<<Godan verb|INFLECTS TO|(.*)副うたら|NAME| ← -tara|END|
+|ROOT|1厭う<<Godan verb|INFLECTS TO|(.*)厭うたら|NAME| ← -tara|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)たり|NAME| ← -tari|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)たり|NAME| ← -tari|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いたり|NAME| ← -tari|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いだり|NAME| ← -tari|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きたり|NAME| ← -tari|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)したり|NAME| ← -tari|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)したり|NAME| ← -tari|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)ったり|NAME| ← -tari|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ったり|NAME| ← -tari|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)ったり|NAME| ← -tari|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んだり|NAME| ← -tari|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んだり|NAME| ← -tari|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んだり|NAME| ← -tari|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)かったり|NAME| ← -tari|END|
+|ROOT|1のたまう<<Godan verb|INFLECTS TO|(.*)のたもうたり|NAME| ← -tari|END|
+|ROOT|1いく<<Godan verb|INFLECTS TO|(.*)いったり|NAME| ← -tari|END|
+|ROOT|1おう<<Godan verb|INFLECTS TO|(.*)おうたり|NAME| ← -tari|END|
+|ROOT|1こう<<Godan verb|INFLECTS TO|(.*)こうたり|NAME| ← -tari|END|
+|ROOT|1そう<<Godan verb|INFLECTS TO|(.*)そうたり|NAME| ← -tari|END|
+|ROOT|1とう<<Godan verb|INFLECTS TO|(.*)とうたり|NAME| ← -tari|END|
+|ROOT|1行く<<Godan verb|INFLECTS TO|(.*)行ったり|NAME| ← -tari|END|
+|ROOT|1逝く<<Godan verb|INFLECTS TO|(.*)逝ったり|NAME| ← -tari|END|
+|ROOT|1往く<<Godan verb|INFLECTS TO|(.*)往ったり|NAME| ← -tari|END|
+|ROOT|1請う<<Godan verb|INFLECTS TO|(.*)請うたり|NAME| ← -tari|END|
+|ROOT|1乞う<<Godan verb|INFLECTS TO|(.*)乞うたり|NAME| ← -tari|END|
+|ROOT|1恋う<<Godan verb|INFLECTS TO|(.*)恋うたり|NAME| ← -tari|END|
+|ROOT|1問う<<Godan verb|INFLECTS TO|(.*)問うたり|NAME| ← -tari|END|
+|ROOT|1負う<<Godan verb|INFLECTS TO|(.*)負うたり|NAME| ← -tari|END|
+|ROOT|1沿う<<Godan verb|INFLECTS TO|(.*)沿うたり|NAME| ← -tari|END|
+|ROOT|1添う<<Godan verb|INFLECTS TO|(.*)添うたり|NAME| ← -tari|END|
+|ROOT|1副う<<Godan verb|INFLECTS TO|(.*)副うたり|NAME| ← -tari|END|
+|ROOT|1厭う<<Godan verb|INFLECTS TO|(.*)厭うたり|NAME| ← -tari|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)て|NAME| ← -te|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)て<<iru|NAME| ← -te|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)て|NAME| ← -te|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)て<<iru|NAME| ← -te|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いて|NAME| ← -te|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いて<<iru|NAME| ← -te|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いで|NAME| ← -te|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いで<<iru|NAME| ← -te|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きて|NAME| ← -te|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きて<<iru|NAME| ← -te|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くて|NAME| ← -te|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くて<<iru|NAME| ← -te|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)して|NAME| ← -te|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)して<<iru|NAME| ← -te|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)して|NAME| ← -te|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)して<<iru|NAME| ← -te|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)って|NAME| ← -te|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)って<<iru|NAME| ← -te|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)って|NAME| ← -te|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)って<<iru|NAME| ← -te|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)って|NAME| ← -te|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)って<<iru|NAME| ← -te|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んで|NAME| ← -te|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んで<<iru|NAME| ← -te|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んで|NAME| ← -te|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んで<<iru|NAME| ← -te|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んで|NAME| ← -te|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んで<<iru|NAME| ← -te|END|
+|ROOT|1のたまう<<Godan verb|INFLECTS TO|(.*)のたもうて|NAME| ← -te|END|
+|ROOT|1のたまう<<Godan verb|INFLECTS TO|(.*)のたもうて<<iru|NAME| ← -te|END|
+|ROOT|1いく<<Godan verb|INFLECTS TO|(.*)いって|NAME| ← -te|END|
+|ROOT|1いく<<Godan verb|INFLECTS TO|(.*)いって<<iru|NAME| ← -te|END|
+|ROOT|1おう<<Godan verb|INFLECTS TO|(.*)おうて|NAME| ← -te|END|
+|ROOT|1おう<<Godan verb|INFLECTS TO|(.*)おうて<<iru|NAME| ← -te|END|
+|ROOT|1こう<<Godan verb|INFLECTS TO|(.*)こうて|NAME| ← -te|END|
+|ROOT|1こう<<Godan verb|INFLECTS TO|(.*)こうて<<iru|NAME| ← -te|END|
+|ROOT|1そう<<Godan verb|INFLECTS TO|(.*)そうて|NAME| ← -te|END|
+|ROOT|1そう<<Godan verb|INFLECTS TO|(.*)そうて<<iru|NAME| ← -te|END|
+|ROOT|1とう<<Godan verb|INFLECTS TO|(.*)とうて|NAME| ← -te|END|
+|ROOT|1とう<<Godan verb|INFLECTS TO|(.*)とうて<<iru|NAME| ← -te|END|
+|ROOT|1行く<<Godan verb|INFLECTS TO|(.*)行って|NAME| ← -te|END|
+|ROOT|1行く<<Godan verb|INFLECTS TO|(.*)行って<<iru|NAME| ← -te|END|
+|ROOT|1逝く<<Godan verb|INFLECTS TO|(.*)逝って|NAME| ← -te|END|
+|ROOT|1逝く<<Godan verb|INFLECTS TO|(.*)逝って<<iru|NAME| ← -te|END|
+|ROOT|1往く<<Godan verb|INFLECTS TO|(.*)往って|NAME| ← -te|END|
+|ROOT|1往く<<Godan verb|INFLECTS TO|(.*)往って<<iru|NAME| ← -te|END|
+|ROOT|1請う<<Godan verb|INFLECTS TO|(.*)請うて|NAME| ← -te|END|
+|ROOT|1請う<<Godan verb|INFLECTS TO|(.*)請うて<<iru|NAME| ← -te|END|
+|ROOT|1乞う<<Godan verb|INFLECTS TO|(.*)乞うて|NAME| ← -te|END|
+|ROOT|1乞う<<Godan verb|INFLECTS TO|(.*)乞うて<<iru|NAME| ← -te|END|
+|ROOT|1恋う<<Godan verb|INFLECTS TO|(.*)恋うて|NAME| ← -te|END|
+|ROOT|1恋う<<Godan verb|INFLECTS TO|(.*)恋うて<<iru|NAME| ← -te|END|
+|ROOT|1問う<<Godan verb|INFLECTS TO|(.*)問うて|NAME| ← -te|END|
+|ROOT|1問う<<Godan verb|INFLECTS TO|(.*)問うて<<iru|NAME| ← -te|END|
+|ROOT|1負う<<Godan verb|INFLECTS TO|(.*)負うて|NAME| ← -te|END|
+|ROOT|1負う<<Godan verb|INFLECTS TO|(.*)負うて<<iru|NAME| ← -te|END|
+|ROOT|1沿う<<Godan verb|INFLECTS TO|(.*)沿うて|NAME| ← -te|END|
+|ROOT|1沿う<<Godan verb|INFLECTS TO|(.*)沿うて<<iru|NAME| ← -te|END|
+|ROOT|1添う<<Godan verb|INFLECTS TO|(.*)添うて|NAME| ← -te|END|
+|ROOT|1添う<<Godan verb|INFLECTS TO|(.*)添うて<<iru|NAME| ← -te|END|
+|ROOT|1副う<<Godan verb|INFLECTS TO|(.*)副うて|NAME| ← -te|END|
+|ROOT|1副う<<Godan verb|INFLECTS TO|(.*)副うて<<iru|NAME| ← -te|END|
+|ROOT|1厭う<<Godan verb|INFLECTS TO|(.*)厭うて|NAME| ← -te|END|
+|ROOT|1厭う<<Godan verb|INFLECTS TO|(.*)厭うて<<iru|NAME| ← -te|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ず|NAME| ← -zu|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ず|NAME| ← -zu|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かず|NAME| ← -zu|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がず|NAME| ← -zu|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こず|NAME| ← -zu|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)さず|NAME| ← -zu|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)せず|NAME| ← -zu|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たず|NAME| ← -zu|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なず|NAME| ← -zu|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばず|NAME| ← -zu|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まず|NAME| ← -zu|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らず|NAME| ← -zu|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わず|NAME| ← -zu|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ぬ|NAME| ← -nu|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ぬ|NAME| ← -nu|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かぬ|NAME| ← -nu|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がぬ|NAME| ← -nu|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こぬ|NAME| ← -nu|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)さぬ|NAME| ← -nu|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)せぬ|NAME| ← -nu|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たぬ|NAME| ← -nu|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なぬ|NAME| ← -nu|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばぬ|NAME| ← -nu|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まぬ|NAME| ← -nu|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らぬ|NAME| ← -nu|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わぬ|NAME| ← -nu|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)く|NAME| ← adv|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かせる|NAME| ← causative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がせる|NAME| ← causative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)させる|NAME| ← causative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)させる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)させる|NAME| ← causative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)させる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)させる|NAME| ← causative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)させる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)させる|NAME| ← causative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)させる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たせる|NAME| ← causative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なせる|NAME| ← causative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばせる|NAME| ← causative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)ませる|NAME| ← causative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)ませる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らせる|NAME| ← causative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わせる|NAME| ← causative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こさせる|NAME| ← causative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こさせる<<Ichidan verb|NAME| ← causative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)い|NAME| ← imperative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)え|NAME| ← imperative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)け|NAME| ← imperative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)げ|NAME| ← imperative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)せ|NAME| ← imperative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)て|NAME| ← imperative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)ね|NAME| ← imperative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)べ|NAME| ← imperative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)め|NAME| ← imperative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)よ|NAME| ← imperative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)れ|NAME| ← imperative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ろ|NAME| ← imperative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こい|NAME| ← imperative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しろ|NAME| ← imperative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)せよ|NAME| ← imperative|END|
+|ROOT|1いる<<Ichidan verb|INFLECTS TO|(.*)い|NAME| ← masu stem|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)い|NAME| ← masu stem|END|
+|ROOT|1える<<Ichidan verb|INFLECTS TO|(.*)え|NAME| ← masu stem|END|
+|ROOT|1きる<<Ichidan verb|INFLECTS TO|(.*)き|NAME| ← masu stem|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)き|NAME| ← masu stem|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)き|NAME| ← masu stem|END|
+|ROOT|1ぎる<<Ichidan verb|INFLECTS TO|(.*)ぎ|NAME| ← masu stem|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎ|NAME| ← masu stem|END|
+|ROOT|1ける<<Ichidan verb|INFLECTS TO|(.*)け|NAME| ← masu stem|END|
+|ROOT|1げる<<Ichidan verb|INFLECTS TO|(.*)げ|NAME| ← masu stem|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)し|NAME| ← masu stem|END|
+|ROOT|1じる<<Ichidan verb|INFLECTS TO|(.*)じ|NAME| ← masu stem|END|
+|ROOT|1せる<<Ichidan verb|INFLECTS TO|(.*)せ|NAME| ← masu stem|END|
+|ROOT|1ぜる<<Ichidan verb|INFLECTS TO|(.*)ぜ|NAME| ← masu stem|END|
+|ROOT|1ちる<<Ichidan verb|INFLECTS TO|(.*)ち|NAME| ← masu stem|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ち|NAME| ← masu stem|END|
+|ROOT|1てる<<Ichidan verb|INFLECTS TO|(.*)て|NAME| ← masu stem|END|
+|ROOT|1でる<<Ichidan verb|INFLECTS TO|(.*)で|NAME| ← masu stem|END|
+|ROOT|1にる<<Ichidan verb|INFLECTS TO|(.*)に|NAME| ← masu stem|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)に|NAME| ← masu stem|END|
+|ROOT|1ねる<<Ichidan verb|INFLECTS TO|(.*)ね|NAME| ← masu stem|END|
+|ROOT|1ひる<<Ichidan verb|INFLECTS TO|(.*)ひ|NAME| ← masu stem|END|
+|ROOT|1びる<<Ichidan verb|INFLECTS TO|(.*)び|NAME| ← masu stem|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)び|NAME| ← masu stem|END|
+|ROOT|1へる<<Ichidan verb|INFLECTS TO|(.*)へ|NAME| ← masu stem|END|
+|ROOT|1べる<<Ichidan verb|INFLECTS TO|(.*)べ|NAME| ← masu stem|END|
+|ROOT|1みる<<Ichidan verb|INFLECTS TO|(.*)み|NAME| ← masu stem|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)み|NAME| ← masu stem|END|
+|ROOT|1める<<Ichidan verb|INFLECTS TO|(.*)め|NAME| ← masu stem|END|
+|ROOT|1りる<<Ichidan verb|INFLECTS TO|(.*)り|NAME| ← masu stem|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)り|NAME| ← masu stem|END|
+|ROOT|1れる<<Ichidan verb|INFLECTS TO|(.*)れ|NAME| ← masu stem|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ない|NAME| ← negative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ない<<Adjective|NAME| ← negative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ない|NAME| ← negative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ない<<Adjective|NAME| ← negative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かない|NAME| ← negative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かない<<Adjective|NAME| ← negative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がない|NAME| ← negative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がない<<Adjective|NAME| ← negative|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くない|NAME| ← negative|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くない<<Adjective|NAME| ← negative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こない|NAME| ← negative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こない<<Adjective|NAME| ← negative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)さない|NAME| ← negative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)さない<<Adjective|NAME| ← negative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しない|NAME| ← negative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しない<<Adjective|NAME| ← negative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たない|NAME| ← negative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たない<<Adjective|NAME| ← negative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なない|NAME| ← negative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なない<<Adjective|NAME| ← negative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばない|NAME| ← negative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばない<<Adjective|NAME| ← negative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まない|NAME| ← negative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まない<<Adjective|NAME| ← negative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らない|NAME| ← negative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らない<<Adjective|NAME| ← negative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わない|NAME| ← negative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わない<<Adjective|NAME| ← negative|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)さ|NAME| ← noun|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かれる|NAME| ← passive|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がれる|NAME| ← passive|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)される|NAME| ← passive|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)される<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)される|NAME| ← passive|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)される<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たれる|NAME| ← passive|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なれる|NAME| ← passive|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばれる|NAME| ← passive|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まれる|NAME| ← passive|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まれる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)われる|NAME| ← passive|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)われる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)られる|NAME| ← passive|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)られる<<Ichidan verb|NAME| ← passive|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)た|NAME| ← past|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)た|NAME| ← past|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いた|NAME| ← past|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いだ|NAME| ← past|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きた|NAME| ← past|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)した|NAME| ← past|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)した|NAME| ← past|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)った|NAME| ← past|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)った|NAME| ← past|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)った|NAME| ← past|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んだ|NAME| ← past|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んだ|NAME| ← past|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んだ|NAME| ← past|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)かった|NAME| ← past|END|
+|ROOT|1のたまう<<Godan verb|INFLECTS TO|(.*)のたもうた|NAME| ← past|END|
+|ROOT|1いく<<Godan verb|INFLECTS TO|(.*)いった|NAME| ← past|END|
+|ROOT|1おう<<Godan verb|INFLECTS TO|(.*)おうた|NAME| ← past|END|
+|ROOT|1こう<<Godan verb|INFLECTS TO|(.*)こうた|NAME| ← past|END|
+|ROOT|1そう<<Godan verb|INFLECTS TO|(.*)そうた|NAME| ← past|END|
+|ROOT|1とう<<Godan verb|INFLECTS TO|(.*)とうた|NAME| ← past|END|
+|ROOT|1行く<<Godan verb|INFLECTS TO|(.*)行った|NAME| ← past|END|
+|ROOT|1逝く<<Godan verb|INFLECTS TO|(.*)逝った|NAME| ← past|END|
+|ROOT|1往く<<Godan verb|INFLECTS TO|(.*)往った|NAME| ← past|END|
+|ROOT|1請う<<Godan verb|INFLECTS TO|(.*)請うた|NAME| ← past|END|
+|ROOT|1乞う<<Godan verb|INFLECTS TO|(.*)乞うた|NAME| ← past|END|
+|ROOT|1恋う<<Godan verb|INFLECTS TO|(.*)恋うた|NAME| ← past|END|
+|ROOT|1問う<<Godan verb|INFLECTS TO|(.*)問うた|NAME| ← past|END|
+|ROOT|1負う<<Godan verb|INFLECTS TO|(.*)負うた|NAME| ← past|END|
+|ROOT|1沿う<<Godan verb|INFLECTS TO|(.*)沿うた|NAME| ← past|END|
+|ROOT|1添う<<Godan verb|INFLECTS TO|(.*)添うた|NAME| ← past|END|
+|ROOT|1副う<<Godan verb|INFLECTS TO|(.*)副うた|NAME| ← past|END|
+|ROOT|1厭う<<Godan verb|INFLECTS TO|(.*)厭うた|NAME| ← past|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ます|NAME| ← polite|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ます|NAME| ← polite|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)います|NAME| ← polite|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きます|NAME| ← polite|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きます|NAME| ← polite|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎます|NAME| ← polite|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)します|NAME| ← polite|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)します|NAME| ← polite|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちます|NAME| ← polite|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にます|NAME| ← polite|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びます|NAME| ← polite|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みます|NAME| ← polite|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)ります|NAME| ← polite|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ません|NAME| ← polite negative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ません|NAME| ← polite negative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いません|NAME| ← polite negative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きません|NAME| ← polite negative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きません|NAME| ← polite negative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎません|NAME| ← polite negative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しません|NAME| ← polite negative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しません|NAME| ← polite negative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちません|NAME| ← polite negative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にません|NAME| ← polite negative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びません|NAME| ← polite negative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みません|NAME| ← polite negative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りません|NAME| ← polite negative|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くありません|NAME| ← polite negative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ました|NAME| ← polite past|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ました|NAME| ← polite past|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いました|NAME| ← polite past|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きました|NAME| ← polite past|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きました|NAME| ← polite past|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎました|NAME| ← polite past|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しました|NAME| ← polite past|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しました|NAME| ← polite past|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちました|NAME| ← polite past|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にました|NAME| ← polite past|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びました|NAME| ← polite past|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みました|NAME| ← polite past|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りました|NAME| ← polite past|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ませんでした|NAME| ← polite past negative|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ませんでした|NAME| ← polite past negative|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いませんでした|NAME| ← polite past negative|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きませんでした|NAME| ← polite past negative|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きませんでした|NAME| ← polite past negative|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎませんでした|NAME| ← polite past negative|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しませんでした|NAME| ← polite past negative|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しませんでした|NAME| ← polite past negative|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちませんでした|NAME| ← polite past negative|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にませんでした|NAME| ← polite past negative|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びませんでした|NAME| ← polite past negative|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みませんでした|NAME| ← polite past negative|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りませんでした|NAME| ← polite past negative|END|
+|ROOT|1い<<Adjective|INFLECTS TO|(.*)くありませんでした|NAME| ← polite past negative|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)ましょう|NAME| ← polite volitional|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)ましょう|NAME| ← polite volitional|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)いましょう|NAME| ← polite volitional|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)きましょう|NAME| ← polite volitional|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きましょう|NAME| ← polite volitional|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ぎましょう|NAME| ← polite volitional|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しましょう|NAME| ← polite volitional|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しましょう|NAME| ← polite volitional|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)ちましょう|NAME| ← polite volitional|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)にましょう|NAME| ← polite volitional|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)びましょう|NAME| ← polite volitional|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)みましょう|NAME| ← polite volitional|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)りましょう|NAME| ← polite volitional|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)える|NAME| ← potential|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)える<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)ける|NAME| ← potential|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)ける<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)げる|NAME| ← potential|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)げる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)せる|NAME| ← potential|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)せる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)てる|NAME| ← potential|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)てる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)ねる|NAME| ← potential|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)ねる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)べる|NAME| ← potential|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)べる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)める|NAME| ← potential|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)める<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)れる|NAME| ← potential|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)れる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)れる|NAME| ← potential|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)れる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)れる|NAME| ← potential|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)れる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)これる|NAME| ← potential|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)これる<<Ichidan verb|NAME| ← potential|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)られる|NAME| ← potential or passive|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)られる<<Ichidan verb|NAME| ← potential or passive|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)られる|NAME| ← potential or passive|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)られる<<Ichidan verb|NAME| ← potential or passive|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こられる|NAME| ← potential or passive|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こられる<<Ichidan verb|NAME| ← potential or passive|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)おう|NAME| ← volitional|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)こう|NAME| ← volitional|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)ごう|NAME| ← volitional|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)そう|NAME| ← volitional|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)とう|NAME| ← volitional|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)のう|NAME| ← volitional|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ぼう|NAME| ← volitional|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)もう|NAME| ← volitional|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)よう|NAME| ← volitional|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)よう|NAME| ← volitional|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)ろう|NAME| ← volitional|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)こよう|NAME| ← volitional|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しよう|NAME| ← volitional|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かされる|NAME| ← causative passive|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)かされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がされる|NAME| ← causative passive|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)がされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たされる|NAME| ← causative passive|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)たされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なされる|NAME| ← causative passive|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)なされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばされる|NAME| ← causative passive|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)ばされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まされる|NAME| ← causative passive|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)まされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らされる|NAME| ← causative passive|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)らされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わされる|NAME| ← causative passive|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)わされる<<Ichidan verb|NAME| ← causative passive|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いとく|NAME| ← -toku|END|
+|ROOT|1く<<Godan verb|INFLECTS TO|(.*)いとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いどく|NAME| ← -toku|END|
+|ROOT|1ぐ<<Godan verb|INFLECTS TO|(.*)いどく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きとく|NAME| ← -toku|END|
+|ROOT|1くる<<Kuru verb|INFLECTS TO|(.*)きとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しとく|NAME| ← -toku|END|
+|ROOT|1す<<Godan verb|INFLECTS TO|(.*)しとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しとく|NAME| ← -toku|END|
+|ROOT|1する<<Suru verb|INFLECTS TO|(.*)しとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)っとく|NAME| ← -toku|END|
+|ROOT|1う<<Godan verb|INFLECTS TO|(.*)っとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)っとく|NAME| ← -toku|END|
+|ROOT|1つ<<Godan verb|INFLECTS TO|(.*)っとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)っとく|NAME| ← -toku|END|
+|ROOT|1る<<Godan verb|INFLECTS TO|(.*)っとく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んどく|NAME| ← -toku|END|
+|ROOT|1ぬ<<Godan verb|INFLECTS TO|(.*)んどく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んどく|NAME| ← -toku|END|
+|ROOT|1ぶ<<Godan verb|INFLECTS TO|(.*)んどく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んどく|NAME| ← -toku|END|
+|ROOT|1む<<Godan verb|INFLECTS TO|(.*)んどく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)とく|NAME| ← -toku|END|
+|ROOT|1る<<Ichidan verb|INFLECTS TO|(.*)とく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)とく|NAME| ← -toku|END|
+|ROOT|1る<<Kuru verb|INFLECTS TO|(.*)とく<<Godan verb|NAME| ← -toku|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)ている|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)ている<<Ichidan verb|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)ておる|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)ておる<<Godan verb|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)てる|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)てる<<Ichidan verb|NAME| ← progressive or perfect|END|
+|ROOT|1で<<iru|INFLECTS TO|(.*)でいる|NAME| ← progressive or perfect|END|
+|ROOT|1で<<iru|INFLECTS TO|(.*)でいる<<Ichidan verb|NAME| ← progressive or perfect|END|
+|ROOT|1で<<iru|INFLECTS TO|(.*)でおる|NAME| ← progressive or perfect|END|
+|ROOT|1で<<iru|INFLECTS TO|(.*)でおる<<Godan verb|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)とる|NAME| ← progressive or perfect|END|
+|ROOT|1て<<iru|INFLECTS TO|(.*)とる<<Godan verb|NAME| ← progressive or perfect|END|
+|ROOT|1ない<<Adjective|INFLECTS TO|(.*)ないでいる|NAME| ← progressive or perfect|END|
+|ROOT|1ない<<Adjective|INFLECTS TO|(.*)ないでいる<<Ichidan verb|NAME| ← progressive or perfect|END|
