@@ -45,3 +45,4 @@ for entry in parse(argv[1]).getroot().iter("entry"):
 		outfile.write(f"|DEFINITION|<small>({', '.join(filter(lambda word: word not in exclude, term.words))})</small>")
 		outfile.writelines(f"\n<p>{definition}</p>" for definition in definitions)
 		outfile.write("|END|\n")
+outfile.write(open("inflections.txt", "r", encoding="utf-8").read())
