@@ -7,13 +7,13 @@
 	<title>Freedict to Textractor</title>
 </head>
 <body>
-	This app converts dictionaries from Freedict format to Textractor's format.<br>
+	This app converts dictionaries from Freedict (a.k.a. Dictd) format to Textractor's format.<br>
 	You can find Freedict format dictionaries <a href="https://freedict.org/downloads">here</a>.<br>
-	You can use <a href="https://github.com/ilius/pyglossary">this</a> and other tools to convert
-	other dictionary types such as Babylon to Freedict (a.k.a. Dictd) format.
-	After downloading, use 7-zip to extract the dictionary files.<br>
-	The contained .dict.dz file is also accumulator archive 7-zip can open: do so and extract the .dict file.<br>
-	Finally, select the .dict and .index files below to convert them to accumulator Textractor dictionary.<br>
+	You can use other tools like <a href="https://github.com/ilius/pyglossary">pyglossary</a> to convert other
+	dictionary types such as Babylon to Freedict format.<br>
+	Extract whatever FreeDict dictionary you want with 7-zip. The contained .dict.dz file is also a archive 7-zip can
+	open: do so and extract the .dict file.<br>
+	Finally, select the .dict and .index files below to convert them to a Textractor dictionary.<br>
 	<input type="file" accept=".index" onchange="convert()">
 	<input type="file" accept=".dict" onchange="convert()">
 	<script>
