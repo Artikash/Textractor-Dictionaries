@@ -9,7 +9,7 @@ from sys import argv
 from collections import namedtuple
 from itertools import chain, product
 
-Term = namedtuple("Term", ["words", "parts_of_speech"])
+Term = namedtuple("Term", ["words", "readings", "parts_of_speech"])
 
 def inflect(term):
 	inflections = set(term.words)
@@ -38,11 +38,12 @@ for entry in parse(argv[1]).getroot().iter("entry"):
 		if not definitions: continue
 		defined_words = tuple(stag.text for stag in chain(sense.iter("stagk"), sense.iter("stagr")))\
 			or tuple(eb.text for eb in chain(entry.iter("keb"), entry.iter("reb")))
-		definitions_by_term.setdefault(Term(defined_words, parts_of_speech), set()).update(definitions)
+		readings = tuple(stag.text for stag in sense.iter("stagr")) or tuple(eb.text for eb in entry.iter("reb"))
+		definitions_by_term.setdefault(Term(defined_words, readings, parts_of_speech), set()).update(definitions)
 
 	for term, definitions in definitions_by_term.items():
 		outfile.writelines(f"|TERM|{inflection}" for inflection in inflect(term))
-		outfile.write(f"|DEFINITION|<p><small>({', '.join(filter(lambda word: word not in exclude, term.words))})</small>")
+		outfile.write(f"|DEFINITION|<p><small>({', '.join(filter(lambda word: word not in exclude, term.readings))})</small>")
 		outfile.writelines(f"\n<p>{definition}" for definition in definitions)
 		outfile.write("|END|\n")
 outfile.write(open("inflections.txt", "r", encoding="utf-8").read())
