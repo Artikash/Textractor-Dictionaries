@@ -2,7 +2,7 @@
 # 1. JMDict file name (usually JMDict or JMDict_e)
 # 2. Output file name (should be SavedDictionary.txt)
 # 3. Language (eng for English, other JMDict codes work)
-# Example usage: python jmdict_to_textractor.py JMDict SavedDictionary.txt eng 2
+# Example usage: python jmdict_to_textractor.py JMDict SavedDictionary.txt eng
 
 from xml.etree.ElementTree import parse
 from sys import argv
