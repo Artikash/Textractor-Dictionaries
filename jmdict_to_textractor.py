@@ -42,7 +42,7 @@ for entry in parse(argv[1]).getroot().iter("entry"):
 
 	for term, definitions in definitions_by_term.items():
 		outfile.writelines(f"|TERM|{inflection}" for inflection in inflect(term))
-		outfile.write(f"|DEFINITION|<p><small>({', '.join(filter(lambda word: word not in exclude, term.words))})</small>")
+		outfile.write(f"|DEFINITION|<p><small> ({', '.join(filter(lambda word: word not in exclude, term.words))})</small>")
 		outfile.writelines(f"\n<p>{definition}" for definition in definitions)
 		outfile.write("|END|\n")
 outfile.write(open("inflections.txt", "r", encoding="utf-8").read())
